@@ -15,7 +15,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "board")
-public class Board extends {
+public class Board {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
